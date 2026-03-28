@@ -23,7 +23,8 @@ import Github from "@/public/Skills/github.png"
 
 export default function Skills() {
     return(
-    <div className="bg-[#F57426] items-center flex px-10 pt-10 pb-20 " id="skills">
+    // {/* <div className="bg-[#F57426] items-center flex px-10 pt-10 pb-20 " id="skills"> */}
+    <div className="bg-linear-to-t from-[#0F2F41] to-[#2779A7] items-center flex px-10 py-20 " id="skills">
     
     {/* BOTH - LEFT & RIGHT CONTAINER */}
     <div className="justify-evenly flex flex-col gap-10 w-full items-center">
@@ -84,7 +85,8 @@ export default function Skills() {
 
             {/* Logo */}
              <Reveal overlayDirection="up" width="100%">
-                    <div className="flex flex-col justify-center md:flex-row gap-5 md:p-5 items-center bg-[#f36c29] p-2 rounded hover:scale-105 transition-all duration-400 ease-out">
+                    {/* <div className="flex flex-col justify-center md:flex-row gap-5 md:p-5 items-center bg-[#f36c29] p-2 rounded hover:scale-105 transition-all duration-400 ease-out"> */}
+                    <div className="flex flex-col justify-center md:flex-row gap-5 md:p-5 items-center bg-[#0F2F41] p-2 hover:bg-[#26485b] hover:scale-102 transition-all duration-400 ease-out rounded-md">
                         <Image 
                             src={VSCode} 
                             alt="Logo" 
@@ -140,7 +142,8 @@ export default function Skills() {
 
             {/* Logo */}
             <Reveal overlayDirection="up" width="100%">
-                    <div className="flex flex-col justify-center md:flex-row gap-5 md:p-5 items-center bg-[#f36c29] p-2 rounded hover:scale-105 transition-all duration-400 ease-out">
+                    {/* <div className="flex flex-col justify-center md:flex-row gap-5 md:p-5 items-center bg-[#f36c29] p-2 rounded hover:scale-105 transition-all duration-400 ease-out"> */}
+                    <div className="flex flex-col justify-center md:flex-row gap-5 md:p-5 items-center bg-[#0F2F41] p-2 hover:bg-[#26485b] hover:scale-102 transition-all duration-400 ease-out rounded-md">
                         <Image 
                             src={Github} 
                             alt="Logo" 

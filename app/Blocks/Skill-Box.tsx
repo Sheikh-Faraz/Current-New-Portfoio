@@ -12,7 +12,8 @@ export default function SkillBox({ img, name, description }: SkillBoxProps){
 
     // {/* Logo */}
     <Reveal overlayDirection="up" width="100%">
-        <div className="flex flex-col md:flex-row gap-5 md:p-5 items-center bg-[#f36c29] p-2 rounded hover:scale-105 transition-all duration-400 ease-out">
+        {/* <div className="flex flex-col md:flex-row gap-5 md:p-5 items-center bg-[#f36c29] p-2 rounded hover:scale-105 transition-all duration-400 ease-out"> */}
+        <div className="flex flex-col md:flex-row gap-5 md:p-5 items-center bg-[#0F2F41] p-2 hover:bg-[#26485b] hover:scale-102 transition-all duration-400 ease-out rounded-md">
             <Image 
                 src={img} 
                 alt="Logo" 

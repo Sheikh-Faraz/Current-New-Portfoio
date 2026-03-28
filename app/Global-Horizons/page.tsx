@@ -6,7 +6,8 @@ import GlobalHorizonsImg from "@/public/Projects/Global-Horizons.png"
 export default function GlobalHorizons(){
     return(
         <Project2 
-            title = "Global Horizons Travel Agency"
+            // title = "Global Horizons Travel Agency"
+            title = "GLOBAL HORIZONS TRAVEL SITE"
             year = "[2025]"
             category = "[FRONT END PROJECT]"
             imageSrc = {GlobalHorizonsImg.src}

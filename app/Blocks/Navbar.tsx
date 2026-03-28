@@ -68,7 +68,8 @@ const Navbar = ({
             <a href={"/"} className="flex items-center gap-2">
             <Reveal overlayDirection="down" width="100%">
                 <span 
-                  className="text-[30px] font-semibold tracking-tighter font-caveat px-2 hover:text-[#fbc6b0] cursor-pointer hover:scale-110 transition-all duration-400 ease-out"
+                  // className="text-[30px] font-semibold tracking-tighter font-caveat px-2 hover:text-[#fbc6b0] cursor-pointer hover:scale-110 transition-all duration-400 ease-out"
+                  className="text-[30px] font-semibold tracking-tighter font-caveat px-2 hover:text-[#26485b] cursor-pointer hover:scale-110 transition-all duration-400 ease-out"
                 >
                   {logo.title}
                 </span>
@@ -118,7 +119,8 @@ const Navbar = ({
                   >
                     <a href={item.url}>
                        {item.title}
-                        <span className="absolute left-0 -bottom-1 h-0.5 w-full bg-[#fbc6b0] scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100" />
+                        {/* <span className="absolute left-0 -bottom-1 h-0.5 w-full bg-[#fbc6b0] scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100" /> */}
+                        <span className="absolute left-0 -bottom-1 h-0.5 w-full bg-[#26485b] scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100" />
                     </a>
                   </motion.button>
                   </SheetClose>
@@ -154,11 +156,13 @@ const renderMenuItem = ( item: MenuItem ) => {
 
       <NavigationMenuLink
         href={item.url}
-        className="relative group/nav inline-flex h-10 w-max items-center justify-center rounded-md py-2 text-[30px] font-medium hover:text-[#fbc6b0] cursor-pointer transition-colors duration-300 ease-out"
+        // className="relative group/nav inline-flex h-10 w-max items-center justify-center rounded-md py-2 text-[30px] font-medium hover:text-[#fbc6b0] cursor-pointer transition-colors duration-300 ease-out"
+        className="relative group/nav inline-flex h-10 w-max items-center justify-center rounded-md py-2 text-[30px] font-medium hover:text-[#26485b] cursor-pointer transition-colors duration-300 ease-out"
         >
 
         {item.title}
-        <span className="absolute left-0 bottom-0 h-0.5 w-full bg-[#fbc6b0] origin-left scale-x-0 transition-transform duration-300 ease-out group-hover/nav:scale-x-100" />
+        {/* <span className="absolute left-0 bottom-0 h-0.5 w-full bg-[#fbc6b0] origin-left scale-x-0 transition-transform duration-300 ease-out group-hover/nav:scale-x-100" /> */}
+        <span className="absolute left-0 bottom-0 h-0.5 w-full bg-[#ffffff] origin-left scale-x-0 transition-transform duration-300 ease-out group-hover/nav:scale-x-100" />
 
       </NavigationMenuLink>
       </Reveal>

@@ -44,11 +44,12 @@ export default function Projects() {
   }, []);
 
   return (
-    <main className="relative bg-[#F57426] px-10" id="projects">
+    // <main className="relative bg-[#F57426] px-10" id="projects">
+    <main className="relative bg-linear-to-t from-[#2779A7] to-[#0F2F41] px-10 pb-15" id="projects">
 
-      <div className="flex flex-col p-10 text-center justify-center items-center">
+      <div className="flex flex-col py-15 text-center justify-center items-center w-full">
       <Reveal overlayDirection="up" width="100%">
-        <h1 className="font-caveat text-white text-[50px] md:text-[100px] my-5">
+        <h1 className="font-caveat text-white text-[50px] md:text-[100px] my-5 w-full">
           MY PROJECTS
         </h1>
       </Reveal>
@@ -108,8 +109,11 @@ const Section1 = () => {
 
 
   return (
-    <section ref={ref} className="h-[110vh] sticky top-0 z-10">
-      <div className="relative w-full h-full">
+    // <section ref={ref} className="h-[110vh] sticky top-0 z-10">
+      // <div className="relative w-full h-full">
+    <section ref={ref} className="h-[110vh] sticky top-0 z-10 flex items-center justify-center rounded-md bg-[#26485b]">
+      <div className="relative w-[97%] h-[95%] rounded-3xl overflow-hidden shadow-xl">
+
         <Image
           src={LinkUpProject}
           alt="img"
@@ -150,8 +154,10 @@ const Section2 = () => {
   const y = useTransform(scrollYProgress, [0, 1], [50, 0]);
 
   return (
-    <section ref={ref} className="h-[110vh] sticky top-0 z-20">
-      <div className="relative w-full h-full">
+    // <section ref={ref} className="h-[110vh] sticky top-0 z-20">
+      // <div className="relative w-full h-full">
+    <section ref={ref} className="h-[110vh] sticky top-0 z-10 flex items-center justify-center rounded-md bg-[#26485b]">
+      <div className="relative w-[97%] h-[95%] rounded-3xl overflow-hidden shadow-xl">
         <Image 
           src={GlobalHorizonsProject} 
           alt="img" 

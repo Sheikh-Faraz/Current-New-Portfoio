@@ -6,7 +6,8 @@ import LinkUpImg from "@/public/Projects/Linkup.png"
 export default function LinkUp(){
     return(
         <Project2 
-            title = "LinkUp Chat App"
+            // title = "LinkUp Chat App"
+            title = "LINKUP CHAT APP"
             year = "[2026]"
             category = "[FULL STACK PROJECT]"
             imageSrc = {LinkUpImg.src}

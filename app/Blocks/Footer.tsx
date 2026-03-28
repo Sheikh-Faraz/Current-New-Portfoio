@@ -11,7 +11,8 @@ import InstagramIcon from "@/public/Socials/Instagram.png";
 
 export default function Footer() {
     return(
-    <div className=" bg-linear-to-t from-[#984217] to-[#FE6E26] items-center flex flex-col " id="footer">
+    // <div className=" bg-linear-to-t from-[#984217] to-[#FE6E26] items-center flex flex-col " id="footer">
+    <div className="bg-linear-to-t from-[#2779A7] to-[#0F2F41] items-center flex flex-col " id="footer">
     
     {/* BOTH - LEFT & RIGHT CONTAINER */}
         
@@ -37,7 +38,8 @@ export default function Footer() {
                 <div className="flex gap-5 items-center p-3">
                     <p className="text-[15px] md:text-[20px] font-bold font-caveat">LinkedIn</p>    
                     <a href="https://www.linkedin.com/in/sheikh-faraz-7b7b92356" target="_blank">
-                        <div className="bg-[#f36c29] p-2 rounded-full hover:bg-[#fbc6b0] cursor-pointer hover:scale-110 transition-all duration-400 ease-out">
+                        {/* <div className="bg-[#f36c29] p-2 rounded-full hover:bg-[#fbc6b0] cursor-pointer hover:scale-110 transition-all duration-400 ease-out"> */}
+                        <div className="bg-[#0F2F41] p-2 rounded-full hover:bg-[#26485b] cursor-pointer hover:scale-110 transition-all duration-400 ease-out">
                             <Image src={LinkedInIcon} alt="LinkedIn" className="size-8.75" />
                         </div>
                     </a>
@@ -49,7 +51,8 @@ export default function Footer() {
                 <div className="flex gap-5 items-center p-3">
                     <p className="text-[15px] md:text-[20px] font-bold font-caveat">Github</p>    
                     <a href="https://github.com/Sheikh-Faraz" target="_blank">
-                        <div className="bg-[#f36c29] p-2 rounded-full hover:bg-[#fbc6b0] cursor-pointer hover:scale-110 transition-all duration-400 ease-out">
+                        {/* <div className="bg-[#f36c29] p-2 rounded-full hover:bg-[#fbc6b0] cursor-pointer hover:scale-110 transition-all duration-400 ease-out"> */}
+                        <div className="bg-[#0F2F41] p-2 rounded-full hover:bg-[#26485b] cursor-pointer hover:scale-110 transition-all duration-400 ease-out">
                             <Image src={GithubIcon} alt="Github" className="size-8.75" />
                         </div>
                     </a>
@@ -61,7 +64,8 @@ export default function Footer() {
                 <div className="flex gap-5 items-center p-3">
                     <p className="text-[15px] md:text-[20px] font-bold font-caveat">X / Twitter</p>    
                     <a href="https://x.com/SFaraz9485" target="_blank">
-                        <div className="bg-[#f36c29] p-2 rounded-full hover:bg-[#fbc6b0] cursor-pointer hover:scale-110 transition-all duration-400 ease-out">
+                        {/* <div className="bg-[#f36c29] p-2 rounded-full hover:bg-[#fbc6b0] cursor-pointer hover:scale-110 transition-all duration-400 ease-out"> */}
+                        <div className="bg-[#0F2F41] p-2 rounded-full hover:bg-[#26485b] cursor-pointer hover:scale-110 transition-all duration-400 ease-out">
                             <Image src={XIcon} alt="X / Twitter" className="size-8.75" />
                         </div>
                     </a>
@@ -73,7 +77,8 @@ export default function Footer() {
                 <div className="flex gap-5 items-center p-3">
                     <p className="text-[15px] md:text-[20px] font-bold font-caveat">Instagram</p>    
                     <a href="https://www.instagram.com/sheikhfaraz82" target="_blank">
-                        <div className="bg-[#f36c29] p-2 rounded-full hover:bg-[#fbc6b0] cursor-pointer hover:scale-110 transition-all duration-400 ease-out">
+                        {/* <div className="bg-[#f36c29] p-2 rounded-full hover:bg-[#fbc6b0] cursor-pointer hover:scale-110 transition-all duration-400 ease-out"> */}
+                        <div className="bg-[#0F2F41] p-2 rounded-full hover:bg-[#26485b] cursor-pointer hover:scale-110 transition-all duration-400 ease-out">
                             <Image src={InstagramIcon} alt="Instagram" className="size-8.75"/>
                         </div>
                     </a>

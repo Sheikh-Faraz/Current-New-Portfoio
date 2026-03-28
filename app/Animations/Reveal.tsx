@@ -72,7 +72,8 @@ export const Reveal = ({ children, width = "fit-content", overlayDirection = "le
                     left: 0,
                     width: "100%",
                     height: "100%",
-                    backgroundColor: "#CF5A1F",
+                    // backgroundColor: "#CF5A1F",
+                    backgroundColor: "#0F2F41",
                     zIndex: 20,
                 }}
             />

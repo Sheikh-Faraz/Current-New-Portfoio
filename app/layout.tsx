@@ -54,7 +54,8 @@ export default function RootLayout({
 
     <html lang="en" className={cn("font-sans", geist.variable)}>
 
-      <body className={`${inter.variable} ${robotoMono.variable} ${caveat.variable} antialiased bg-[#F57426]`}>
+      {/* <body className={`${inter.variable} ${robotoMono.variable} ${caveat.variable} antialiased bg-[#F57426]`}> */}
+      <body className={`${inter.variable} ${robotoMono.variable} ${caveat.variable} antialiased bg-[#2779A7]`}>
         
         {/* Navbar */}
         <Navbar />

@@ -177,7 +177,8 @@ export default function Contact() {
 
   return (
     <section
-      className="w-full py-20 px-4 flex justify-center bg-[#FE6E26]"
+      // className="w-full py-20 px-4 flex justify-center bg-[#FE6E26]"
+      className="w-full pb-20 pt-25 px-4 flex justify-center bg-linear-to-t from-[#0F2F41]"
       id="contact"
     >
       <Card className="w-full max-w-6xl py-10 h-fit overflow-hidden border-0 rounded-2xl shadow-xl bg-transparent">
@@ -211,7 +212,8 @@ export default function Contact() {
               whileInView={{ opacity: 1 }}
               transition={{ duration: 0.7, delay: 0.2 }}
               viewport={{ once: true }}
-              className="bg-[#FE6E26] text-white"
+              // className="bg-[#FE6E26] text-white"
+              className="text-white"
             >
               <form className="space-y-4" onSubmit={handleSubmit}>
                 <Input
@@ -251,7 +253,7 @@ export default function Contact() {
                   <Button
                     type="submit"
                     disabled={loading}
-                    className="w-full bg-white text-[#FE6E26] hover:bg-white/90"
+                    className="w-full bg-[#0F2F41] text-white hover:bg-[#37596d]"
                   >
                     {loading ? "Sending..." : "Send Message"}
                   </Button>

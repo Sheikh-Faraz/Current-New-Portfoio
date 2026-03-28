@@ -6,16 +6,19 @@ import { motion } from "framer-motion";
 // BLocks
 import { Reveal } from "@/app/Animations/Reveal";
 
+import Image from "next/image";
+import ProfileImage from "@/public/Personal-Images/Profile-pic.png";
 
 export default function About() {
     return(
-    <div className="bg-[#F57426] items-center" id="about">
+    // <div className="bg-[#F57426] items-center" id="about">
+    <div className="bg-linear-to-t from-[#2779A7] to-[#0F2F41] items-center py-10" id="about">
     
     {/* BOTH - LEFT & RIGHT CONTAINER */}
     <div className="justify-evenly flex flex-col-reverse lg:flex-row lg:gap-0 gap-10 w-full items-center relative">
 
             {/* Right-Content-Container */}
-            <div className="w-fit">
+            <div className="w-fit hover:rotate-5 transition-transform duration-500 m-5">
 
             <motion.div
                 initial={{ opacity: 0 }}
@@ -23,13 +26,19 @@ export default function About() {
                 transition={{ duration: 1 }}
                 viewport={{ once: true }}
             >
-                <video
+                {/* <video
                     src="/videos/About-illustration.mp4"
                     autoPlay
                     loop
                     muted
                     playsInline
-                    />
+                    /> */}
+                <Image 
+                    src={ProfileImage}
+                    alt="img"
+                    height={400}
+                    width={400}
+                />
             </motion.div>
 
             </div>
@@ -60,12 +69,12 @@ export default function About() {
 
         </div>
 
-          <div className="z-100 pointer-events-none absolute bottom-0 left-0 w-full h-20 bg-linear-to-b from-transparent to-[#984217]" />
+          {/* <div className="z-100 pointer-events-none absolute bottom-0 left-0 w-full h-20 bg-linear-to-b from-transparent to-[#984217]" /> */}
 
         </div>
         
         {/* Bottom Shadow/Gradien */}
-        <div className="bg-linear-to-t from-transparent to-[#984217] h-12.5"/>
+        {/* <div className="bg-linear-to-t from-transparent to-[#984217] h-12.5"/> */}
     </div>
     );
 }

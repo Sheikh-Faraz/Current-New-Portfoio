@@ -53,7 +53,8 @@ const Project2 = ({
 }: Project2Props) => {
 
   return (
-    <section className={cn("py-24 bg-[#FE6E26]", className)}>
+    // <section className={cn("py-24 bg-[#FE6E26]", className)}>
+    <section className={cn("py-24 bg-linear-to-t from-[#0F2F41] to-[#2779A7]", className)}>
       <div className="px-6 md:px-10 text-white">
 
         {/* ===== HEADER ===== */}
@@ -66,7 +67,7 @@ const Project2 = ({
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
-              className="font-serif text-5xl md:text-7xl lg:text-8xl leading-none font-light tracking-tight"
+              className=" text-5xl md:text-7xl lg:text-8xl leading-none font-light tracking-tight"
             >
               {title}
             </motion.h1>
@@ -92,7 +93,8 @@ const Project2 = ({
           >
             <Button
               variant="outline"
-              className="group border-white text-black hover:bg-white hover:text-[#60666e] transition"
+              // className="group border-white text-black hover:bg-white hover:text-[#60666e] transition"
+              className="group border-white text-black hover:bg-[#0F2F41] hover:text-white transition duration-400 outline-none"
             >
               <a href={liveUrl} target="_blank" rel="noopener noreferrer">
                 {buttonText}
