@@ -37,7 +37,7 @@ export default function LinkUp(){
 
             buttonText="Visit Site"
 
-            liveUrl="https://link-up-chatapp.vercel.app/"
+            liveUrl="https://link-up-next-js-full-stack.vercel.app/"
         />
     );
 };
