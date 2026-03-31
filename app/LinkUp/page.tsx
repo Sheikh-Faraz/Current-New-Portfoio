@@ -31,7 +31,8 @@ export default function LinkUp(){
                 "Tailwind CSS - Utility-first CSS framework",
                 "TypeScript - For type safety",
                 "React - JavaScript library",
-                "NextAuth - Authentication",
+                "Pusher - Real-time communication",
+                "JWT & Google Auth - Authentication",
                 "shadcn/ui - Reusable component library",
             ]}
 
